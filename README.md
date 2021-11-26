@@ -6,14 +6,14 @@ This project is sample for using robotframework with Selenium2Library.
 
 Install Selenium2Library
 ```
-pip install robotframework-selenium2library
+pip install robotframework-seleniumlibrary
 ```
-Please see [robotframework/Selenium2Library](https://github.com/robotframework/Selenium2Library) for more details.
+Please see [robotframework/SeleniumLibrary](https://github.com/robotframework/SeleniumLibrary) for more details.
 
 Older library might not work for new firefox.
 At that time please run the following command:
 ```
-pip install --upgrade robotframework-selenium2library
+pip install --upgrade robotframework-seleniumlibrary
 ```
 
 
@@ -27,7 +27,7 @@ mvn jetty:run
 Run Test
 
 ```
-pybot ./src/test/resources/scenarios/
+robot ./src/test/resources/scenarios/
 ```
 
 Stop Jetty
